@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'Kaneda';
+    src: url('../assets/fonts/Kaneda_Gothic_Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-image: radial-gradient(circle at top, #000000 40%, #3b3a3a 50%, #000 80%);
+    background-size: cover;
+    background-position: center;
+}
+
+#section2 h1 {
+    font-family: 'Kaneda', sans-serif;
+    font-size: 3rem;
+    color: #EEEEEE;
+}   
+
+#section2-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10rem;
+    margin-top: 2rem;
+}

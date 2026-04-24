@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+.game-card {
+    height: 10dvh;
+    width: 10dvw;
+    color: #001538;
+    border-radius: 1rem;
+}
+
+.game-card img {
+    height: auto;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.game-card p {
+    color: #EEEEEE;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    line-height: 0.2;
+}
